@@ -8,6 +8,7 @@ Has optional urequests class to make usable synchronously.
 
 **Use import:**<br>
 Synchronously: - ```from aurequests import urequests as requests```
+
 or
 <br>Asynchronously: - ```import arequests as requests```
 
