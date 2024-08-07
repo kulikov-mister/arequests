@@ -30,4 +30,4 @@ Synchronously: - ```from aurequests import urequests as requests```
 
 
 **Issues:**
-not supports large  response due to lack of memory - will raise a ConnectionError.
+> not supports large  response due to lack of memory - will raise a ConnectionError.
