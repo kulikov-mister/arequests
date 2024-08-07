@@ -6,8 +6,8 @@ Requires uasyncio V3 or later.
 Has optional urequests class to make usable synchronously.
 
 
-**Use import:**
-to import synchronously (normal) :
+**Use import:**<br>
+to import synchronously (normal):
 ```from aurequests import urequests as requests```
 
 or 
