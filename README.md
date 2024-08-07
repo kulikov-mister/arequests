@@ -18,14 +18,14 @@ Synchronously: - ```from aurequests import urequests as requests```
 **Returns response with the following properties:** - content, status_code, reason, url, text, headers, encoder.
 **json from response by calling json() method:** - ```response.json()```
 
-**Supported**
-supports headers
-supports params
-supports HTTP & HTTPS
-supports сhunked data
-supports redirects
-supports timeout, default - 30 seconds
-supports custom ports
+<br>**Supported**
+<li>supports headers</li>
+<li>supports params</li>
+<li>supports HTTP & HTTPS</li>
+<li>supports сhunked data</li>
+<li>supports redirects</li>
+<li>supports timeout, default - 30 seconds</li>
+<li>supports custom ports</li>
 
 
 **Issues:**
