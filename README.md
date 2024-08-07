@@ -1,4 +1,4 @@
-# arequests :+1:
+# :sunny: arequests :sunny:
 async http-client on micropython for esp32 based on urequests
 
 <picture>
