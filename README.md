@@ -12,8 +12,10 @@ Synchronously: - ```from aurequests import urequests as requests```
 <br>Asynchronously: - ```import arequests as requests```
 
 **Notes:**
-**Default HTTP version** - 1.1
-**HTTP methods:** - GET, HEAD, POST, PUT, DELETE.
+<ul>
+  **Default HTTP version** - 1.1
+  **HTTP methods:** - GET, HEAD, POST, PUT, DELETE.
+</ul>
 
 **Returns response with the following properties:** - content, status_code, reason, url, text, headers, encoder.
 
