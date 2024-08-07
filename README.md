@@ -12,14 +12,13 @@ async http-client on micropython for esp32 based on urequests
 <br>Asynchronously: - ```import arequests as requests```
 
 **Notes:**
-<ul>**Default HTTP version** - 1.1</ul>
-<ul>**HTTP methods:** - GET, HEAD, POST, PUT, DELETE.</ul>
+<br>**Default HTTP version** - 1.1
+<br>**HTTP methods:** - GET, HEAD, POST, PUT, DELETE.
 
-**Returns response with the following properties:** - content, status_code, reason, url, text, headers, encoder.
+<br>**Returns response with the following properties:** - content, status_code, reason, url, text, headers, encoder.
+<br>**json from response by calling json() method:** - ```response.json()```
 
-**json from response by calling json() method:** - ```response.json()```
-
-**Supported**
+<br>**Supported**
 <li>supports headers</li>
 <li>supports params</li>
 <li>supports HTTP & HTTPS</li>
@@ -28,7 +27,5 @@ async http-client on micropython for esp32 based on urequests
 <li>supports timeout, default - 30 seconds</li>
 <li>supports custom ports</li>
 
-
-
-**Issues:**
+<br>**Issues:**
 > not supports large  response due to lack of memory - will raise a ConnectionError.
