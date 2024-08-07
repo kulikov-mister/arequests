@@ -14,7 +14,6 @@ async http-client on micropython for esp32 based on urequests
 **Notes:**
 <br>**Default HTTP version** - 1.1
 <br>**HTTP methods:** - GET, HEAD, POST, PUT, DELETE.
-
 <br>**Returns response with the following properties:** - content, status_code, reason, url, text, headers, encoder.
 <br>**json from response by calling json() method:** - ```response.json()```
 
