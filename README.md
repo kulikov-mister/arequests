@@ -13,7 +13,7 @@ Requires uasyncio V3 or later.
 
 
 ### Use import:
-Synchronously: - `from aurequests import urequests as requests`
+Synchronously: - `from arequests import urequests as requests`
 <br>**or**
 <br>Asynchronously: - `import arequests as requests`
 
