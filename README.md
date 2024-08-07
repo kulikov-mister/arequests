@@ -8,12 +8,12 @@ Has optional urequests class to make usable synchronously.
 
 **Use import:**<br>
 to import synchronously (normal):
-```from aurequests import urequests as requests```
+<br>```from aurequests import urequests as requests```
 
 or 
 
-to import asynchronously:
-```import arequests as requests```
+<br>to import asynchronously:
+<br>```import arequests as requests```
 
 **Notes:**
 **Default HTTP version** - 1.1
