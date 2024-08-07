@@ -18,7 +18,7 @@ Synchronously: - ```from aurequests import urequests as requests```
 **Returns response with the following properties:** - content, status_code, reason, url, text, headers, encoder.
 **json from response by calling json() method:** - ```response.json()```
 
-<br>**Supported**
+**Supported**
 <li>supports headers</li>
 <li>supports params</li>
 <li>supports HTTP & HTTPS</li>
