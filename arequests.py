@@ -4,7 +4,7 @@ gc.threshold(gc.mem_free() // 4 + gc.mem_alloc()) # sets threshold to 1/4 of hea
 gc.enable()
 
 
-__version__ = "0.0.9"
+__version__ = "1.0.0"
 HTTP__version__ = "1.1"
 
 
