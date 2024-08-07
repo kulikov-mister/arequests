@@ -15,7 +15,7 @@ async http-client on micropython for esp32 based on urequests
 ### Use import:
 <br>Synchronously: - ```from aurequests import urequests as requests```
 <br>**or**
-<br>Asynchronously: - ```import arequests as requests```
+<br>Asynchronously: - `import arequests as requests`
 
 ### Notes:
 <br>**Default HTTP version** - 1.1
