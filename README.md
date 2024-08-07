@@ -2,12 +2,12 @@
 async http-client on micropython for esp32 based on urequests
 
 **Desciption:**
-Requires uasyncio V3 or later.
-Has optional urequests class to make usable synchronously.
+<br>Requires uasyncio V3 or later.
+<br>Has optional urequests class to make usable synchronously.
 
 
-**Use import:**<br>
-Synchronously: - ```from aurequests import urequests as requests```
+**Use import:**
+<br>Synchronously: - ```from aurequests import urequests as requests```
 <br>**or**
 <br>Asynchronously: - ```import arequests as requests```
 
