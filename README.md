@@ -32,5 +32,5 @@ Synchronously: - `from aurequests import urequests as requests`
 <li>supports timeout, default - 30 seconds</li>
 <li>supports custom ports</li><br>
 
-> [!WARNING]
+> [!ISSUE]
 > not supports large  response due to lack of memory - will raise a ConnectionError.
