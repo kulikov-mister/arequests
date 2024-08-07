@@ -271,7 +271,7 @@ async def delete(url, timeout=30, **kwargs):
         raise TimeoutError(e)
 
 
-# Makes it usable synchronously, but cannot use this class asynchronously because it was lockup the coro.
+# Makes it usable synchronously
 class urequests:
 
     @staticmethod
