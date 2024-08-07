@@ -30,8 +30,7 @@ async http-client on micropython for esp32 based on urequests
 <li>supports сhunked data</li>
 <li>supports redirects</li>
 <li>supports timeout, default - 30 seconds</li>
-<li>supports custom ports</li>
-
+<li>supports custom ports</li><br>
 
 > [!WARNING]
 > not supports large  response due to lack of memory - will raise a ConnectionError.
